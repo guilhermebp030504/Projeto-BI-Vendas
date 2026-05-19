@@ -1,0 +1,6 @@
+data,produto,categoria,vendedor,cidade,valor
+2024-01-01,Notebook,Eletronicos,Lucas,São Paulo,3500
+2024-01-01,Mouse,Eletronicos,Ana,Rio de Janeiro,120
+2024-01-02,Teclado,Eletronicos,Pedro,Belo Horizonte,250
+2024-01-03,Cadeira,Moveis,Lucas,Curitiba,900
+2024-01-03,Mesa,Moveis,Ana,São Paulo,1400
