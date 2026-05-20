@@ -3,17 +3,3 @@
 
 # Environment
 .env
-
-# Postgres data
-postgres_data/
-postgres/
-
-# n8n data
-n8n_data/
-n8n/
-
-# Metabase
-metabase-data/
-
-# mac/linux
-.DS_Store
