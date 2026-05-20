@@ -21,7 +21,7 @@ Metabase (Dashboards e BI)
 # Tecnologias Utilizadas
 
 - Docker
-- Docker Compose
+- Portainer
 - PostgreSQL
 - n8n
 - Metabase
@@ -48,13 +48,11 @@ O projeto automatiza o fluxo de ingestão e visualização de dados:
 ├── .env
 ├── .gitignore
 ├── README.md
-│
-├── files/
+├── vendas.csv
 │
 ├── n8n/
 │   └── workflows/
-│
-└── screenshots/
+├── metabase/
 ```
 
 ---
@@ -64,7 +62,7 @@ O projeto automatiza o fluxo de ingestão e visualização de dados:
 ## 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+git clone https://github.com/guilhermebp030504/Projeto-BI-Vendas.git
 ```
 
 ---
@@ -72,7 +70,7 @@ git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
 ## 2. Entrar na pasta do projeto
 
 ```bash
-cd SEU_REPOSITORIO
+cd Projeto-BI-Vendas
 ```
 
 ---
@@ -117,7 +115,7 @@ METABASE_PORT=3001
 - Persistência de dados no PostgreSQL
 - Dashboards interativos no Metabase
 - Ambiente totalmente containerizado
-- Fácil replicação utilizando Docker Compose
+- Fácil replicação utilizando Portainer
 
 ---
 
@@ -142,29 +140,11 @@ n8n/workflows/
 
 ---
 
-# Screenshots
-
-## Dashboard no Metabase
-
-Adicione imagens em:
-
-```text
-screenshots/
-```
-
-Exemplo:
-
-```md
-![Dashboard](metabase/Metabase - Painel de vendas.png)
-```
-
----
-
 # Aprendizados
 
 Este projeto permitiu praticar:
 
-- Docker e Docker Compose
+- Docker e Portainer
 - ETL e automação
 - Integração entre serviços
 - Modelagem de banco de dados
@@ -175,4 +155,4 @@ Este projeto permitiu praticar:
 
 # Autor
 
-Desenvolvido por [SEU NOME](https://github.com/guilhermebp030504)
+Desenvolvido por [guilhermebp030504](https://github.com/guilhermebp030504)
