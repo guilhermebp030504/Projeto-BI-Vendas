@@ -1,6 +1,6 @@
 # Projeto BI com Docker, n8n e Metabase
 
-Sistema de ETL e Business Intelligence utilizando Docker Compose, PostgreSQL, n8n e Metabase.
+Sistema de ETL e Business Intelligence utilizando Portainer, PostgreSQL, n8n e Metabase.
 
 ---
 
